@@ -1,0 +1,17 @@
+@use 'base/variables' as v;
+
+.sidebar{
+    &_contenido{
+        background-color: v.$secundario;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    &_heading, &_texto{
+        color: v.$blanco;
+    }
+
+    &_label{
+        font-weight: 700;
+    }
+}
